@@ -1,0 +1,24 @@
+# Node & Frontend dependencies
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+*.local
+
+# Go Binaries & Backend
+backend/*.exe
+backend/*.log
+backend/.env
+livepoll-backend.exe
+
+# Databases & Docker volume artifacts
+mongo_data/
+redis_data/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+node_modules/
+.env
+.env.local
